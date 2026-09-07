@@ -7,7 +7,7 @@
 set -euo pipefail
 
 INSTALL_DIR="${1:?Usage: install-sail.sh <install-dir>}"
-SAIL_VERSION="0.13.1"
+SAIL_VERSION="0.14"
 
 mkdir -p "$INSTALL_DIR"
 curl --fail --location --retry 5 --retry-all-errors --retry-delay 5 \

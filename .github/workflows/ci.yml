@@ -111,7 +111,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        simulator: [spike, whisper]
+        simulator: [sail, spike, whisper]
         toolchain: [gcc, clang]
 
     steps:
