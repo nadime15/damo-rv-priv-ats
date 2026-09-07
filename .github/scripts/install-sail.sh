@@ -13,3 +13,5 @@ mkdir -p "$INSTALL_DIR"
 curl --fail --location --retry 5 --retry-all-errors --retry-delay 5 \
     "https://github.com/riscv/sail-riscv/releases/download/${SAIL_VERSION}/sail-riscv-Linux-x86_64.tar.gz" \
     | tar xvz --directory="$INSTALL_DIR" --strip-components=1
+
+# REMOVE
